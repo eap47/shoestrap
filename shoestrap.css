@@ -1,8 +1,3 @@
-.col-1 {
-  float: left;
-  width: 8.33333333%;
-}
-
 div {
   height: 50px;
   border: 1px solid red;
@@ -12,14 +7,78 @@ div {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.row:before {
+#row:before {
   display: table;
   content: "";
 }
 
-.row:after {
+#row:after {
   display: table;
   content: "";
   clear: both;
 } 
-    
+
+.col-1{
+    float: left;
+    width: 8.333%;
+}
+.col-2{
+    float: left;
+    width: 16.666%;
+}
+.col-3{
+    float: left;
+    width: 25%;
+}
+.col-4{
+    float: left;
+    width: 33.333%;
+}
+.col-5{
+    float: left;
+    width: 41.666%;
+}
+.col-6{
+    float: left;
+    width: 50%;
+}
+.col-7{
+    float: left;
+    width: 58.333%;
+}
+.col-8{
+    float: left;
+    width: 66.666%;
+}
+.col-9{
+    float: left;
+    width: 75%;
+}
+.col-10{
+    float: left;
+    width: 83.333%;
+}
+.col-11{
+    float: left;
+    width: 91.666%;
+}
+.col-12{
+    float: left;
+    width: 100%;
+}
+nav li {
+  display: inline-block;
+}
+nav {
+  background-color: #333333;
+  overflow: auto;
+}
+nav li a { 
+  line-height: 50px;
+  text-decoration: none;
+  color: #ad3256;
+  align-content: center
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 120px;
+}
